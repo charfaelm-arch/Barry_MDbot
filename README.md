@@ -2,7 +2,7 @@
 
   "name": "Barry_MDbot",
   "version": "1.0.0",
-  "description": "Digital Crew WhatsApp Bot — a powerful, fun and intelligent bot packed with extra features, AI capabilities and a sleek futuristic design",
+  "description": "barry_MDBot WhatsApp Bot — a powerful, fun and intelligent bot packed with extra features, AI capabilities and a sleek futuristic design",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -28,6 +28,6 @@
     "file-type": "^19.0.0",
     "form-data": "^4.0.1"
   },
-  "author": "𓆩 𝐃𝐢𝐠𝐢𝐭𝐚𝐥 𝐂𝐫𝐞𝐰 𝟐𝟒𝟑 𓆪",
+  "author": "𓆩 Barry_MDbot𓆪",
   "license": "ISC"
 }
