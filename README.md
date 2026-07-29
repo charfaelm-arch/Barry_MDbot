@@ -1,33 +1,9 @@
 # Barry_MDbot
 
-  "name": "Barry_MDbot",
-  "version": "1.0.0",
-  "description": "barry_MDBot WhatsApp Bot — a powerful, fun and intelligent bot packed with extra features, AI capabilities and a sleek futuristic design",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "node test.js",
-    "start": "node index.js"
-  },
-  "keywords": [
-    "whatsapp",
-    "bot",
-    "automation",
-    "ai",
-    "digix",
-    "crew"
-  ],
-  "dependencies": {
-    "baileys": "npm:baileys@latest",
-    "axios": "^1.7.7",
-    "axios-retry": "^3.9.1",
-    "uuid": "^9.0.1",
-    "wa-sticker-formatter": "^4.4.4",
-    "pino": "^8.18.0",
-    "crypto": "latest",
-    "file-type": "^19.0.0",
-    "form-data": "^4.0.1"
-  },
-  "author": "𓆩 Barry_MDbot𓆪",
-  "license": "ISC"
-}
+  "import connectToWhatsapp from './Digix/crew.js'
+import handleIncomingMessage from './events/messageHandler.js'
+
+(async() => {
+    await connectToWhatsapp(handleIncomingMessage)
+        console.log('established !')
+})()
